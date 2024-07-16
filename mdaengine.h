@@ -4,6 +4,11 @@
 #include <QObject>
 #include <QMediaPlayer>
 #include <QAudioOutput>
+#include <QQuickImageProvider>
+#include <QQmlApplicationEngine>
+
+
+// MusicHandler.h
 struct MediaObject
 {
     int id;
@@ -94,14 +99,8 @@ private:
     int currentIndex[2] = {-1, 0};
     bool m_screenZoom ;
 };
-#endif // MUSIC_HANDLER_H
 
-#ifndef IMAGE_PROVIDER_H
-#define IMAGE_PROVIDER_H
-
-#include <QObject>
-#include <QQuickImageProvider>
-
+// ImageProvider.h
 class ImageProvider : public QQuickImageProvider
 {
 	Q_OBJECT
@@ -113,16 +112,11 @@ private:
 	QMap<QString, QPixmap> objMap;
 };
 
-#endif // IMAGE_PROVIDER_H
-
-#ifndef COMMON_H
-#define COMMON_H
-
-#include <QQmlApplicationEngine>
-
+// Common.h
 #define LOG qInfo() << __FUNCTION__ << ":"
 
 void configQmlContextBefore(QQmlApplicationEngine &engine);
 void configQmlContextAfter(QQmlApplicationEngine &engine);
 
-#endif // !COMMON_H
+
+#endif // MUSIC_HANDLER_H

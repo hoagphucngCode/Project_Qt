@@ -1,12 +1,12 @@
 formatVersion: 1
 formatType: am-application
 ---
-id:      'mediaApp'
+id:      'climateApp'
 name:
-  en: 'Audio/Video'
-  vi: 'Nhạc/Phim'
+  en: 'Climate'
+  vi: 'Điều hòa'
 icon:    'icon.png'
-code:    'mediaApp'
+code:    'climateApp'
 runtime: 'native'
 runtimeParameters:
   environmentVariables:

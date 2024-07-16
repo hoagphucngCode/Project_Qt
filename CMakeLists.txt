@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(mediaApp LANGUAGES CXX)
+project(climateApp LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -14,39 +14,35 @@ find_package(Qt6 COMPONENTS Quick)
 find_package(Qt6 COMPONENTS DBus)
 find_package(Qt6 COMPONENTS AppManLauncherPrivate)
 find_package(Qt6 COMPONENTS AppManMainPrivate)
-find_package(Qt6 COMPONENTS AppManWindowPrivate)
 
-qt_add_executable(mediaApp
-    mdaengine.h
-    mdaengine.cpp
+qt_add_executable(climateApp
+    climateengine.h
+    climateengine.cpp
     main.cpp
 )
 
 add_subdirectory(models)
 add_subdirectory(screens)
+
 target_include_directories(${PROJECT_NAME} PRIVATE ./)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC
-    Qt::Quick
-    Qt::DBus
-    Qt::QuickPrivate
-    Qt::DBus
-    Qt::AppManLauncherPrivate
-    Qt::AppManMainPrivate
-    Qt::AppManWindowPrivate
-    mediascreen
-    mediamodel
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    Qt6::Quick
+    Qt6::DBus
+    Qt6::QuickPrivate
+    Qt6::DBus
+    Qt6::AppManLauncherPrivate
+    climatescreen
+    climatemodel
 )
 
 install(FILES
     icon.png
     info.yaml
     DESTINATION
-    /apps/mediaApp
+    /apps/climateApp
 )
 
 install(TARGETS ${PROJECT_NAME}
-    DESTINATION /apps/mediaApp
+    DESTINATION /apps/climateApp
 )
-
-
