@@ -1,2 +1,0 @@
-/home/fr/Downloads/MediaPlayer/MediaPlayer/build/Desktop_Qt_6_2_4_GCC_64bit-Debug/appMediaPlayer_autogen/include/../KBDWZZ7H6Y/moc_media_handler.cpp.json
-/home/fr/Downloads/MediaPlayer/MediaPlayer/build/Desktop_Qt_6_2_4_GCC_64bit-Debug/appMediaPlayer_autogen/include/../NDEIKVIBDK/moc_image_provider.cpp.json
