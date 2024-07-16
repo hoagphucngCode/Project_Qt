@@ -1,0 +1,23 @@
+{
+	"cmake.configureSettings": {
+		"CMAKE_PREFIX_PATH": "/opt/Qt/6.2.4/gcc_64/",
+		"Qt6_DIR": "/opt/Qt/6.2.4/gcc_64/lib/cmake/Qt6/",
+		"CMAKE_CXX_FLAGS_INIT":"-DQT_QML_DEBUG",
+	},
+	"cmake.cmakePath": "/opt/Qt/Tools/CMake/bin/cmake",
+	"files.associations": {
+		"qguiapplication": "cpp",
+		"qqmlapplicationengine": "cpp",
+		"ostream": "cpp",
+		"array": "cpp",
+		"*.tcc": "cpp",
+		"istream": "cpp",
+		"tuple": "cpp",
+		"utility": "cpp",
+		"variant": "cpp",
+		"qcoreapplication": "cpp",
+		"chrono": "cpp",
+		"string_view": "cpp",
+		"initializer_list": "cpp"
+	}
+}
