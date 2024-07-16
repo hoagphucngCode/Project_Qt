@@ -1,0 +1,14 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'mediaApp'
+name:
+  en: 'Audio/Video'
+  vi: 'Nhạc/Phim'
+icon:    'icon.png'
+code:    'mediaApp'
+runtime: 'native'
+runtimeParameters:
+  environmentVariables:
+    QT_WAYLAND_DISABLE_WINDOWDECORATION: "1"
+supportsApplicationInterface: yes
