@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/MediaPlayer">
+    <file alias="qmldir">/home/fr/Downloads/MediaPlayer/MediaPlayer/build/Desktop_Qt_6_2_4_GCC_64bit-Debug/MediaPlayer/qmldir</file>
+  </qresource>
+</RCC>
+

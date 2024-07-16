@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a4bdf0cfac08303ebf90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MediaPlayer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-334816f8c97f71196929.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-aa1fe9a098ac0a00a5f9.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer-Debug-3d2b718ad1c519a8dc09.json",
+					"name" : "appMediaPlayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_autogen-Debug-820e80fb8c9268dd4e44.json",
+					"name" : "appMediaPlayer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_autogen_timestamp_deps-Debug-a63acec30eafa92f5765.json",
+					"name" : "appMediaPlayer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_automoc_json_extraction-Debug-7692ff9f4160456055e1.json",
+					"name" : "appMediaPlayer_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_other_files-Debug-92fe68313a1e492a0919.json",
+					"name" : "appMediaPlayer_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_qmllint-Debug-4e069f4540fcc441b130.json",
+					"name" : "appMediaPlayer_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_qmltyperegistration-Debug-20bc87fa7405407aff12.json",
+					"name" : "appMediaPlayer_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMediaPlayer_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMediaPlayer_tooling-Debug-cbe65313531ed14d9280.json",
+					"name" : "appMediaPlayer_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fr/Downloads/MediaPlayer/MediaPlayer/build/Desktop_Qt_6_2_4_GCC_64bit-Debug",
+		"source" : "/home/fr/Downloads/MediaPlayer/MediaPlayer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

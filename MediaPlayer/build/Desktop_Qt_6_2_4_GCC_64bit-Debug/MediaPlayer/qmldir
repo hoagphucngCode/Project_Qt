@@ -1,0 +1,9 @@
+module MediaPlayer
+typeinfo appMediaPlayer.qmltypes
+prefer :/MediaPlayer/
+MusicPlayer 1.0 screen/features/MusicPlayer.qml
+Controller 1.0 screen/components/music/Controller.qml
+List 1.0 screen/components/music/List.qml
+Player 1.0 screen/components/music/Player.qml
+IconButton 1.0 screen/components/music/IconButton.qml
+

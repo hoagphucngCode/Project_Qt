@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "ImageProvider",
+            "object": true,
+            "qualifiedClassName": "ImageProvider",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickImageProvider"
+                }
+            ]
+        }
+    ],
+    "inputFile": "image_provider.h",
+    "outputRevision": 68
+}

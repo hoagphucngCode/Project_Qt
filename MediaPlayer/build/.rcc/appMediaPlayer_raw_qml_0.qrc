@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/MediaPlayer/">
+    <file alias="main.qml">/home/fr/pro/MediaPlayer/main.qml</file>
+    <file alias="screen/features/MusicPlayer.qml">/home/fr/pro/MediaPlayer/screen/features/MusicPlayer.qml</file>
+    <file alias="screen/components/music/Controller.qml">/home/fr/pro/MediaPlayer/screen/components/music/Controller.qml</file>
+    <file alias="screen/components/music/List.qml">/home/fr/pro/MediaPlayer/screen/components/music/List.qml</file>
+    <file alias="screen/components/music/Player.qml">/home/fr/pro/MediaPlayer/screen/components/music/Player.qml</file>
+    <file alias="screen/components/music/IconButton.qml">/home/fr/pro/MediaPlayer/screen/components/music/IconButton.qml</file>
+    <file alias="screen/utils.js">/home/fr/pro/MediaPlayer/screen/utils.js</file>
+  </qresource>
+</RCC>
+
